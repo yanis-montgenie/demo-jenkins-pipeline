@@ -1,6 +1,3 @@
-# demo-jenkins-pipeline
-Exercice 2 - Consigne Github et Pipeline
-
 # 🚀 Demo Jenkins Pipeline
 
 ## 🧩 Objectif du projet
