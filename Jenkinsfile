@@ -1,9 +1,10 @@
 pipeline {
-    agent {
-        docker {
-            image 'maven:3.9.4-eclipse-temurin-17'
-        }
+    agent any 
+
+    tools {
+        maven 'install_automatically'
     }
+
     stages {
         stage('Cloner le dépôt') {
             steps {
